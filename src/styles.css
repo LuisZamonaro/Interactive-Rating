@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100vh; */
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 0%);
+}
+
+.wrapper1 {
+    width: 100%;
+    max-width: 400px;
+    height: 390px; 
+    background-color: hsl(216, 12%, 8%);
+    padding-inline: 1.5rem;
+    margin-top: 25vh;
+    border-radius: 30px;
+}
+
+.wrapper1.active {
+    display: none;
+}
+
+.imageIcon {
+    background-color: hsl(213, 19%, 18%);
+    width: 100%;
+    max-width: 40px;
+    height: 100%;
+    max-height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.howDid {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.please {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.buttons {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.buttonClass {
+    width: 100%;
+    max-width: 50px;
+    height: 100%;
+    max-height: 50px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    border: none;
+    color:  hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.buttonClass.active {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.buttonClass:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+#subButton {
+    width: 100%;
+    border-radius: 15px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: white;
+    letter-spacing: 3px;
+    height: 40px;
+}
+
+#subButton:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+} 
+
+.container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100vh; */
+    font-family: 'Overpass', sans-serif;  
+}
+
+.wrapper2 {
+    display: flex;
+    /* display: none; */
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    height: 390px; 
+    background-color: hsl(216, 12%, 8%);
+    padding-inline: 1.5rem;
+    margin-top: 25vh;
+    border-radius: 30px;
+}
+
+.wrapper2.ative {
+    display: block;
+}
+
+.thankYouu {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.youSelected {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(25, 97%, 53%);
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 23px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.weAp {
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imageThanks {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+#returnButton {
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: hsl(25, 97%, 53%);
+    outline: none;
+    border: none;
+    border-radius: 18px;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#returnButton:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+}
